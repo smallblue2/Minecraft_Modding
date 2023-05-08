@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: firstmod
+Specification-Vendor: firstmodsareus
+Specification-Version: 1
+Implementation-Title: Minecraft_Modding
+Implementation-Version: 0.0.1-1.19
+Implementation-Vendor: firstmodsareus
+Implementation-Timestamp: 2023-05-08T21:36:45+0100
+
