@@ -21,6 +21,7 @@ public class ModItems {
     private static final FoodProperties APACHE_GARLIC_DIP_FOOD = new FoodProperties.Builder().nutrition(12).saturationMod(1.2F).build();
     public static final RegistryObject<Item> APACHE_GARLIC_DIP = ITEMS.register("apache_garlic_dip",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FIRSTMOD_TAB).food(APACHE_GARLIC_DIP_FOOD)));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

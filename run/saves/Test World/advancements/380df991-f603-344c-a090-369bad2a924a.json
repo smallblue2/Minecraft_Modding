@@ -5,13 +5,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+  "minecraft:recipes/decorations/smoker": {
     "criteria": {
-      "has_stone": "2023-05-09 01:12:17 +0100"
+      "has_furnace": "2023-05-09 21:45:52 +0100"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_stone": {
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
     "criteria": {
       "has_stone": "2023-05-09 01:12:17 +0100"
     },
@@ -20,6 +20,62 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2023-05-08 22:28:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-05-09 01:12:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2023-05-09 01:12:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2023-05-09 01:12:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2023-05-08 22:12:08 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2023-05-09 01:12:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2023-05-09 01:12:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2023-05-08 22:27:41 +0100",
+      "minecraft:lukewarm_ocean": "2023-05-08 22:28:06 +0100",
+      "minecraft:savanna": "2023-05-08 22:09:23 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2023-05-09 21:45:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2023-05-09 01:12:17 +0100"
     },
     "done": true
   },
@@ -41,12 +97,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2023-05-09 01:12:17 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2023-05-09 01:12:17 +0100"
@@ -59,15 +109,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_bricks": {
+  "minecraft:story/root": {
     "criteria": {
-      "has_stone": "2023-05-09 01:12:17 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2023-05-09 01:12:17 +0100"
+      "crafting_table": "2023-05-09 21:45:01 +0100"
     },
     "done": true
   },
@@ -89,12 +133,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/recovery_compass": {
-    "criteria": {
-      "has_echo_shard": "2023-05-08 22:12:08 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/stone_slab": {
     "criteria": {
       "has_stone": "2023-05-09 01:12:17 +0100"
@@ -104,6 +142,12 @@
   "minecraft:recipes/redstone/stone_pressure_plate": {
     "criteria": {
       "has_stone": "2023-05-09 01:12:17 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2023-05-09 21:45:58 +0100"
     },
     "done": true
   },
@@ -119,31 +163,11 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/stonecutter": {
-    "criteria": {
-      "has_stone": "2023-05-09 01:12:17 +0100"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_stairs": {
-    "criteria": {
-      "has_stone": "2023-05-09 01:12:17 +0100"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2023-05-08 22:28:05 +0100"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:beach": "2023-05-08 22:27:41 +0100",
-      "minecraft:lukewarm_ocean": "2023-05-08 22:28:06 +0100",
-      "minecraft:savanna": "2023-05-08 22:09:23 +0100"
-    },
-    "done": false
   },
   "DataVersion": 3105
 }
