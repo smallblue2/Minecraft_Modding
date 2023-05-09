@@ -1,6 +1,11 @@
 {
-  "item.firstmod.zircon" : "Zircon",
+  "item.firstmod.zircon": "Zircon",
   "item.firstmod.raw_zircon": "Raw Zircon",
+  "item.firstmod.apache_garlic_dip": "Apache Garlic Dip",
+
+  "block.firstmod.zircon_block": "Zircon Block",
+  "block.firstmod.zircon_ore_block": "Zircon Ore Block",
+  "block.firstmod.deepslate_zircon_ore_block": "Deepslate Zircon Ore Block",
 
   "itemGroup.firstmod": "First Mod Tab"
 }

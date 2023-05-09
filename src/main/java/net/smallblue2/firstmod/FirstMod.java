@@ -8,6 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.smallblue2.firstmod.block.ModBlocks;
 import net.smallblue2.firstmod.item.ModItems;
 import org.slf4j.Logger;
 
@@ -25,6 +26,8 @@ public class FirstMod
 
         // Will register my mod items
         ModItems.register(modEventBus);
+        // Will register my blocks
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
