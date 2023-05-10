@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#o#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:obsidian"
+    },
+    "o": {
+      "item": "firstmod:zircon"
+    }
+  },
+  "result": {
+    "item": "firstmod:magic_eight_ball"
+  }
+}

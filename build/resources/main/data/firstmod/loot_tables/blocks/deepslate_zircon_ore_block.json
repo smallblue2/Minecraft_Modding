@@ -15,7 +15,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "firstmod:raw_zircon"
+          "name": "firstmod:raw_zircon",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "firstmod:zircon",
+          "weight": 1
         }
       ],
       "bonus_rolls": 0
