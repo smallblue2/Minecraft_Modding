@@ -7,6 +7,7 @@
   "block.firstmod.zircon_block": "Zircon Block",
   "block.firstmod.zircon_ore_block": "Zircon Ore Block",
   "block.firstmod.deepslate_zircon_ore_block": "Deepslate Zircon Ore Block",
+  "block.firstmod.jumpy_block": "Jumpy Block",
 
   "itemGroup.firstmodtab": "First Mod Tab"
 }

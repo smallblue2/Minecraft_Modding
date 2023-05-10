@@ -13,6 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.smallblue2.firstmod.FirstMod;
+import net.smallblue2.firstmod.block.advanced.JumpyBlock;
 import net.smallblue2.firstmod.item.ModCreativeModeTab;
 import net.smallblue2.firstmod.item.ModItems;
 
@@ -45,6 +46,10 @@ public class ModBlocks {
     // Deepslate Zircon Ore Block
     public static final RegistryObject<Block> DEEPSLATE_ZIRCON_ORE_BLOCK = registerBlock("deepslate_zircon_ore_block",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), UniformInt.of(4, 8)), ModCreativeModeTab.FIRSTMOD_TAB);
+
+    public static final RegistryObject<JumpyBlock> JUMPY_BLOCK = registerBlock("jumpy_block",
+            () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE).strength(2f)), ModCreativeModeTab.FIRSTMOD_TAB);
+
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
     }
