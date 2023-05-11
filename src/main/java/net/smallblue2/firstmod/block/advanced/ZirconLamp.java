@@ -1,6 +1,9 @@
 package net.smallblue2.firstmod.block.advanced;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
@@ -33,6 +36,11 @@ public class ZirconLamp extends Block {
     @Override
     public InteractionResult use(BlockState blockState, Level level, BlockPos blockPos, Player player, InteractionHand interactionHand, BlockHitResult blockHitResult) {
         if (!level.isClientSide() && interactionHand == InteractionHand.MAIN_HAND) {
+            if (blockState.getValue(LIT)) {
+                level.playSound(null, blockPos, SoundEvents.STONE_BUTTON_CLICK_ON, SoundSource.BLOCKS, 1.0f, 1.0f);
+            } else {
+                level.playSound(null, blockPos, SoundEvents.STONE_BUTTON_CLICK_OFF, SoundSource.BLOCKS, 1.0f, 1.0f);
+            }
             // Set the block state
             level.setBlock(blockPos, blockState.setValue(LIT, !blockState.getValue(LIT)), 3);
         }
