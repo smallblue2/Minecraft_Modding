@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#o#",
+    "o#o",
+    "#o#"
+  ],
+  "key": {
+    "o": {
+      "item": "firstmod:zircon"
+    },
+    "#": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "firstmod:zircon_lamp_block"
+  }
+}
