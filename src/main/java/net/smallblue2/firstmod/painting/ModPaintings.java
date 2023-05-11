@@ -14,13 +14,17 @@ public class ModPaintings {
 
     // Registering my different paintings
     public static final RegistryObject<PaintingVariant> PLANT = PAINTING_VARIANTS.register("plant",
-            () -> new PaintingVariant(16, 16));
+            () -> new PaintingVariant(16, 16)); // width, height
     public static final RegistryObject<PaintingVariant> WANDERER = PAINTING_VARIANTS.register("wanderer",
             () -> new PaintingVariant(16, 32));
     public static final RegistryObject<PaintingVariant> SUNSET = PAINTING_VARIANTS.register("sunset",
             () -> new PaintingVariant(32, 16));
     public static final RegistryObject<PaintingVariant> GARLIC = PAINTING_VARIANTS.register("garlic",
             () -> new PaintingVariant(32, 16));
+    public static final RegistryObject<PaintingVariant> RUFUS0 = PAINTING_VARIANTS.register("rufus0",
+            () -> new PaintingVariant(32, 32));
+    public static final RegistryObject<PaintingVariant> RUFUS1 = PAINTING_VARIANTS.register("rufus1",
+            () -> new PaintingVariant(64, 64));
 
     // Register method
     public static void register(IEventBus eventBus) {
